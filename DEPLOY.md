@@ -1,9 +1,11 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 # cl-lp-manager: deploy checklist (later phase)
 
-Nothing in this file has been done. As of 2026-11-08 nothing is hosted, published or pushed. The steps below are mechanical once the user approves each one. **Mainnet: never** (gate G-VALUE): no mainnet contract deployment, no mainnet keys, no mainnet writes from any part of this project.
+Status (2026-11-09): the repo is public at https://github.com/clmm-lab-stellar/cl-lp-manager and the static web app (section 1) is live at https://clmm-lab-stellar.github.io/cl-lp-manager/ via GitHub Pages. The npm package (section 2) and any contract publication (section 3) have not been done. The remaining steps are mechanical once the user approves each one. **Mainnet: never** (gate G-VALUE): no mainnet contract deployment, no mainnet keys, no mainnet writes from any part of this project.
 
 ## 1. Static web app (`web/`)
+
+**Done 2026-11-09.** Live at https://clmm-lab-stellar.github.io/cl-lp-manager/; `.github/workflows/pages.yml` rebuilds and deploys on every push to `main`. The table below is what the workflow does and how to host elsewhere.
 
 | Item | Value |
 |---|---|
@@ -45,7 +47,9 @@ Build: `pnpm contracts:build` (Stellar CLI 25.2.0, Rust 1.97.1, `wasm32v1-none`)
 
 Refresh: `pnpm contracts:build && pnpm testnet:vault && pnpm demo:data`. Keys are generated in memory per run; there is nothing to store or rotate.
 
-## 5. Optional CI (GitHub Action)
+## 5. CI (GitHub Action)
+
+`.github/workflows/pages.yml` runs `pnpm check` and the web build, then deploys Pages (steps 1 and 3 below; the Rust checks in step 2 are not in CI yet). The notes below still apply to any extension.
 
 One workflow on push. Use `actions/setup-node`, `pnpm/action-setup` and `dtolnay/rust-toolchain` pinned by commit SHA. Then:
 
