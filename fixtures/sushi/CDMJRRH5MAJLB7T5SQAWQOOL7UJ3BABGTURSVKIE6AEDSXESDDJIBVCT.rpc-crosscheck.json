@@ -1,0 +1,14 @@
+{
+ "pool": "CDMJRRH5MAJLB7T5SQAWQOOL7UJ3BABGTURSVKIE6AEDSXESDDJIBVCT",
+ "checkedAt": "2026-11-03T23:58:00.589Z",
+ "rpc": "https://mainnet.sorobanrpc.com",
+ "ledgerRange": [
+  65171898,
+  65180644
+ ],
+ "rpcSwapCount": 2,
+ "fixtureSwapCount": 2,
+ "rpcVolumeToken1": 1.199633276320905,
+ "fixtureVolumeToken1": 1.199633276320905,
+ "match": true
+}

@@ -1,0 +1,14 @@
+{
+ "pool": "CC22BLZAFTS7M6Z25HOMKDLV65PBP5CIHFER2OTZB5IRNL3YBWDXKDFF",
+ "checkedAt": "2026-11-03T23:57:29.941Z",
+ "rpc": "https://mainnet.sorobanrpc.com",
+ "ledgerRange": [
+  65171891,
+  65287676
+ ],
+ "rpcSwapCount": 323,
+ "fixtureSwapCount": 323,
+ "rpcVolumeToken1": 17059.71001315437,
+ "fixtureVolumeToken1": 17059.71001315437,
+ "match": true
+}

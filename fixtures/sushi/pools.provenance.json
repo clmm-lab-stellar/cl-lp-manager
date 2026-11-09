@@ -1,0 +1,13 @@
+{
+ "capturedAt": "2026-11-03T20:22:04.669Z",
+ "script": "scripts/capture-sushi-pools.ts",
+ "sources": [
+  "https://api.stellar.expert/explorer/public/contract/CD3KRKGDRVWPXVB3VXLUMQKMX6XZ6Q2H334IVZD4XXNAMKSRVQL5GLYF/events (pool_created, set_protocol_fee)",
+  "https://mainnet.sorobanrpc.com simulateTransaction: token.symbol/decimals/balance(pool) (read-only, not submitted)",
+  "https://coins.llama.fi/prices/current/stellar:<contract> (spot USD at capture)",
+  "Factory address: https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/sushi-stellar/index.js (FACTORY)"
+ ],
+ "notes": [
+  "TVL = reserve0*usd0 + reserve1*usd1 at capture time; null when DefiLlama has no price for a token."
+ ]
+}

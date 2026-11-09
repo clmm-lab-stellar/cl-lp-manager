@@ -1,0 +1,399 @@
+{
+  "schema": "clp.testnet-run.v1",
+  "network": "testnet",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "rpc": "https://soroban-testnet.stellar.org",
+  "explorer": "https://stellar.expert/explorer/testnet",
+  "startedAt": "2026-11-08T19:01:54.397Z",
+  "finishedAt": "2026-11-08T19:13:39.156Z",
+  "script": "scripts/testnet-vault.ts",
+  "gates": [
+    "TESTNET ONLY",
+    "UNAUDITED",
+    "DEMO-ONLY"
+  ],
+  "keys": "Generated in memory with Keypair.random() for this run, funded by friendbot, never written to disk. Only public keys are recorded.",
+  "honesty": [
+    "The pool is contracts/demo-pool, not Aquarius: positions keep their deposited amounts and the price moves only when the admin calls set_slot.",
+    "The oracle is contracts/demo-oracle: an admin-set SEP-40-shaped feed, not a real price source.",
+    "Refusals were produced by simulateTransaction against the deployed contracts; no failing transaction was sent.",
+    "Testnet is reset periodically; after a reset these contract ids and hashes no longer resolve."
+  ],
+  "accounts": {
+    "admin": "GAO4B5FH6VUEIMYFYL2BVRVJRQGBPSI3FMBK7E54UUTGEZXKR46F7DPM",
+    "keeper": "GB6GRPO7NBZB2UB5FTFT34354ZUIWZAMNHRW2OOOJUTEQKDQZTLNNQOC",
+    "user": "GBKRJSTFGFXW67BQBRXZX4TK4G75DJBLCEOWKNMKN4QRGZRU6AK5CMZL"
+  },
+  "tokens": {
+    "token0": {
+      "code": "CLPT0",
+      "issuer": "GAO4B5FH6VUEIMYFYL2BVRVJRQGBPSI3FMBK7E54UUTGEZXKR46F7DPM",
+      "contract": "CCFRICF2O36X3RARLWKV3IAA5BMTVZ65VJARADRMRUDILY7BSEILM5R6"
+    },
+    "token1": {
+      "code": "CLPT1",
+      "issuer": "GAO4B5FH6VUEIMYFYL2BVRVJRQGBPSI3FMBK7E54UUTGEZXKR46F7DPM",
+      "contract": "CDPNABT3W4DDRHZDUGOIGLD4TI6VZAPU7FVOWYTHVOAINWJW2IDRJTUE"
+    }
+  },
+  "contracts": {
+    "vault": "CDHB2NLP3UFIVDE2PSIYX7ZIVYCE5ZRTAPNUAMWDZQBEZI72GYKSOWQA",
+    "pool": "CBEEAMG44M7HHG2XPFCDGV56NSLRVE4QAPT62QU7M7AQF6AGWORFQJZF",
+    "oracle": "CCPVX4AIAM4ZUPOLATBTK4KPKXOHVQNSVSMHE3MC33DZDENFWKPH6YSO"
+  },
+  "wasm": {
+    "vault": {
+      "sha256": "66843f95d5970b869dbe1a8a22aaa51103b26a9e24e8844d5f026fc47e188687",
+      "bytes": 21111
+    },
+    "pool": {
+      "sha256": "36e1da2d0dda2598c736c3bc0027dff83e8fd1d799a259caea9529087cb07695",
+      "bytes": 11857
+    },
+    "oracle": {
+      "sha256": "c8e0438d98dd3ab022718be55359d9272c1feec7c8455367bc52d649f4a51422",
+      "bytes": 4196
+    }
+  },
+  "config": {
+    "admin": "GAO4B5FH6VUEIMYFYL2BVRVJRQGBPSI3FMBK7E54UUTGEZXKR46F7DPM",
+    "keeper": "GB6GRPO7NBZB2UB5FTFT34354ZUIWZAMNHRW2OOOJUTEQKDQZTLNNQOC",
+    "pool": "CBEEAMG44M7HHG2XPFCDGV56NSLRVE4QAPT62QU7M7AQF6AGWORFQJZF",
+    "token0": "CCFRICF2O36X3RARLWKV3IAA5BMTVZ65VJARADRMRUDILY7BSEILM5R6",
+    "token1": "CDPNABT3W4DDRHZDUGOIGLD4TI6VZAPU7FVOWYTHVOAINWJW2IDRJTUE",
+    "oracle": "CCPVX4AIAM4ZUPOLATBTK4KPKXOHVQNSVSMHE3MC33DZDENFWKPH6YSO",
+    "decimals0": 7,
+    "decimals1": 7,
+    "halfWidthTicks": 25,
+    "maxDevBps": 50,
+    "maxAge": 600,
+    "maxSlippageBps": 30,
+    "minInterval": 3600,
+    "cap": "10000000000000"
+  },
+  "scenario": {
+    "decimals": 7,
+    "tickSpacing": 10,
+    "poolFeeBps": 5,
+    "halfWidthTicks": 25,
+    "maxDevBps": 50,
+    "maxAge": 600,
+    "maxSlippageBps": 30,
+    "minInterval": 3600,
+    "cap": "10000000000000",
+    "oracleOne": "100000000000000",
+    "unit": "10000000"
+  },
+  "poolPriceAt1004Scaled": "1003999999",
+  "initialState": {
+    "tickLower": -30,
+    "tickUpper": 30,
+    "liquidity": "0",
+    "totalShares": "0",
+    "lastRebalance": 0,
+    "rebalances": 0,
+    "paused": false
+  },
+  "setup": [
+    {
+      "what": "upload vault wasm (21111 bytes, sha256 66843f95d597)",
+      "hash": "515a7782d590dd0a2df6ae730ce2c52410c73a833feae018c7ab58c8eec0c69b",
+      "ledger": 5628194,
+      "url": "https://stellar.expert/explorer/testnet/tx/515a7782d590dd0a2df6ae730ce2c52410c73a833feae018c7ab58c8eec0c69b"
+    },
+    {
+      "what": "upload pool wasm (11857 bytes, sha256 36e1da2d0dda)",
+      "hash": "366a6f83d1f146d63806ed0db20661217a76565c6c01b2caa321058dd37eb7c8",
+      "ledger": 5628199,
+      "url": "https://stellar.expert/explorer/testnet/tx/366a6f83d1f146d63806ed0db20661217a76565c6c01b2caa321058dd37eb7c8"
+    },
+    {
+      "what": "upload oracle wasm (4196 bytes, sha256 c8e0438d98dd)",
+      "hash": "5813431b5409f7ae774cc2be5633624f7d1bdc30b8acc8971276ac0724baf0dc",
+      "ledger": 5628203,
+      "url": "https://stellar.expert/explorer/testnet/tx/5813431b5409f7ae774cc2be5633624f7d1bdc30b8acc8971276ac0724baf0dc"
+    },
+    {
+      "what": "deploy SAC for CLPT0",
+      "hash": "9e9d4b2ae749945597a7a376aa24f4bfc48dafbe9dfcb57f09abc57a3f4fc6c5",
+      "ledger": 5628208,
+      "url": "https://stellar.expert/explorer/testnet/tx/9e9d4b2ae749945597a7a376aa24f4bfc48dafbe9dfcb57f09abc57a3f4fc6c5"
+    },
+    {
+      "what": "deploy SAC for CLPT1",
+      "hash": "e617bb060be83ecaabcba53162896c36160badfb2f5373ff69250920780ac504",
+      "ledger": 5628213,
+      "url": "https://stellar.expert/explorer/testnet/tx/e617bb060be83ecaabcba53162896c36160badfb2f5373ff69250920780ac504"
+    },
+    {
+      "what": "user trustlines CLPT0, CLPT1",
+      "hash": "45abbed56eb06269e6349d10f7c046a70fe7c63c8295c4a0383b712d63e612e7",
+      "ledger": 5628217,
+      "url": "https://stellar.expert/explorer/testnet/tx/45abbed56eb06269e6349d10f7c046a70fe7c63c8295c4a0383b712d63e612e7"
+    },
+    {
+      "what": "issue 10,000 CLPT0 + 10,000 CLPT1 to user",
+      "hash": "da46d2cf81e7144940017677a5e3d3b78bf4f1faba67f02fe22d426a5bfa77ed",
+      "ledger": 5628220,
+      "url": "https://stellar.expert/explorer/testnet/tx/da46d2cf81e7144940017677a5e3d3b78bf4f1faba67f02fe22d426a5bfa77ed"
+    },
+    {
+      "what": "deploy demo oracle",
+      "hash": "ca6b56452361fc4e5fdbab76cdbfb7f361ac07ffb44bc0a2e8013ed6f3fbb03e",
+      "ledger": 5628225,
+      "url": "https://stellar.expert/explorer/testnet/tx/ca6b56452361fc4e5fdbab76cdbfb7f361ac07ffb44bc0a2e8013ed6f3fbb03e"
+    },
+    {
+      "what": "deploy demo pool",
+      "hash": "54c95144ed861f39cba0bd66a126967e2be9775352b186a43f561043e7ba6a0b",
+      "ledger": 5628229,
+      "url": "https://stellar.expert/explorer/testnet/tx/54c95144ed861f39cba0bd66a126967e2be9775352b186a43f561043e7ba6a0b"
+    },
+    {
+      "what": "mint 100,000 CLPT0 to the demo pool (swap liquidity)",
+      "hash": "a772754fac16a1550ecbdec668693b2330f3b9a08fba9363e192e66d3d577504",
+      "ledger": 5628233,
+      "url": "https://stellar.expert/explorer/testnet/tx/a772754fac16a1550ecbdec668693b2330f3b9a08fba9363e192e66d3d577504"
+    },
+    {
+      "what": "mint 100,000 CLPT1 to the demo pool (swap liquidity)",
+      "hash": "5176632e8a78b4a7befc477146816bae9e7f63f4fe0fb54e0a206f5625d4d708",
+      "ledger": 5628238,
+      "url": "https://stellar.expert/explorer/testnet/tx/5176632e8a78b4a7befc477146816bae9e7f63f4fe0fb54e0a206f5625d4d708"
+    },
+    {
+      "what": "oracle: both tokens at 1.000",
+      "hash": "eb346fb6df78a8bf9add9c2c77082d940e6ae32a6abfbcbcf041bb1fa7330f1e",
+      "ledger": 5628240,
+      "url": "https://stellar.expert/explorer/testnet/tx/eb346fb6df78a8bf9add9c2c77082d940e6ae32a6abfbcbcf041bb1fa7330f1e"
+    },
+    {
+      "what": "deploy vault",
+      "hash": "74ac8a0704690f89750f63a5eeef7f873b5643bc373f630b31fc222670c99ad0",
+      "ledger": 5628243,
+      "url": "https://stellar.expert/explorer/testnet/tx/74ac8a0704690f89750f63a5eeef7f873b5643bc373f630b31fc222670c99ad0"
+    }
+  ],
+  "marketMoves": [
+    {
+      "beforeStep": 3,
+      "what": "demo pool price set to 1.004 (tick 40), outside the vault range",
+      "hash": "d8afb5fd33aa8885405553766e6a50cc551e404d3315ae394827a5af2020c8fa",
+      "ledger": 5628257,
+      "url": "https://stellar.expert/explorer/testnet/tx/d8afb5fd33aa8885405553766e6a50cc551e404d3315ae394827a5af2020c8fa"
+    },
+    {
+      "beforeStep": 3,
+      "what": "oracle set to 1.004, stamped one hour old",
+      "hash": "1d8529f775540b3b1baeb5b0654afc00c73218491569f56a99d6270d70d7a7d5",
+      "ledger": 5628261,
+      "url": "https://stellar.expert/explorer/testnet/tx/1d8529f775540b3b1baeb5b0654afc00c73218491569f56a99d6270d70d7a7d5"
+    },
+    {
+      "beforeStep": 4,
+      "what": "oracle set to 1.014 (1.0% away from the pool), fresh",
+      "hash": "160bd8a969bbe919aa56bdf69e0b3811e04a96137b7e4c0b189cf09ef70f74e1",
+      "ledger": 5628270,
+      "url": "https://stellar.expert/explorer/testnet/tx/160bd8a969bbe919aa56bdf69e0b3811e04a96137b7e4c0b189cf09ef70f74e1"
+    },
+    {
+      "beforeStep": 5,
+      "what": "oracle set to 1.004 (agrees with the pool), fresh",
+      "hash": "ca3526974fa138bce7341d6f2312f8437e9f0bc9964a673204f11f0fdbe49f36",
+      "ledger": 5628280,
+      "url": "https://stellar.expert/explorer/testnet/tx/ca3526974fa138bce7341d6f2312f8437e9f0bc9964a673204f11f0fdbe49f36"
+    },
+    {
+      "beforeStep": 6,
+      "what": "demo pool price set to 1.020 (tick 200)",
+      "hash": "6ea669c129720cd8432298670d6e99a656412f9913bd63249e4c98185cd008f0",
+      "ledger": 5628294,
+      "url": "https://stellar.expert/explorer/testnet/tx/6ea669c129720cd8432298670d6e99a656412f9913bd63249e4c98185cd008f0"
+    },
+    {
+      "beforeStep": 6,
+      "what": "oracle set to 1.020, fresh",
+      "hash": "9ca0baaf49685a1a28a1dcfa86a96834b510a04a422d8f42d1069a986fd34a13",
+      "ledger": 5628300,
+      "url": "https://stellar.expert/explorer/testnet/tx/9ca0baaf49685a1a28a1dcfa86a96834b510a04a422d8f42d1069a986fd34a13"
+    },
+    {
+      "beforeStep": 7,
+      "what": "oracle stamped one day old",
+      "hash": "5845feb90dc6eaaac06b82c1248dcc3df4d3cdacd2506636759665c57b8dd21e",
+      "ledger": 5628308,
+      "url": "https://stellar.expert/explorer/testnet/tx/5845feb90dc6eaaac06b82c1248dcc3df4d3cdacd2506636759665c57b8dd21e"
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "id": "deposit",
+      "title": "User deposits 1,000 CLPT0 + 1,000 CLPT1",
+      "actor": "user",
+      "call": "deposit",
+      "outcome": "success",
+      "expected": "success",
+      "tx": {
+        "hash": "5548d9f23ec08a6028c0029338b1bc1de794031e5979e80837f7b6f91f56c624",
+        "ledger": 5628248,
+        "url": "https://stellar.expert/explorer/testnet/tx/5548d9f23ec08a6028c0029338b1bc1de794031e5979e80837f7b6f91f56c624",
+        "feeCharged": "589740"
+      },
+      "result": "20000000000",
+      "at": "2026-11-08T19:08:08.668Z",
+      "stateAfter": {
+        "tickLower": -30,
+        "tickUpper": 30,
+        "liquidity": "20000000000",
+        "totalShares": "20000000000",
+        "lastRebalance": 0,
+        "rebalances": 0,
+        "paused": false
+      }
+    },
+    {
+      "n": 2,
+      "id": "in-range",
+      "title": "Keeper asks to rebalance while the price is inside the range",
+      "actor": "keeper",
+      "call": "rebalance",
+      "outcome": "refused",
+      "error": "InRange",
+      "expected": "InRange",
+      "simulatedAtLedger": 5628252,
+      "at": "2026-11-08T19:08:24.199Z",
+      "stateAfter": {
+        "tickLower": -30,
+        "tickUpper": 30,
+        "liquidity": "20000000000",
+        "totalShares": "20000000000",
+        "lastRebalance": 0,
+        "rebalances": 0,
+        "paused": false
+      }
+    },
+    {
+      "n": 3,
+      "id": "stale",
+      "title": "Keeper asks to rebalance; oracle reading is 60 minutes old (limit 10)",
+      "actor": "keeper",
+      "call": "rebalance",
+      "outcome": "refused",
+      "error": "OracleStale",
+      "expected": "OracleStale",
+      "simulatedAtLedger": 5628264,
+      "at": "2026-11-08T19:09:25.316Z",
+      "stateAfter": {
+        "tickLower": -30,
+        "tickUpper": 30,
+        "liquidity": "20000000000",
+        "totalShares": "20000000000",
+        "lastRebalance": 0,
+        "rebalances": 0,
+        "paused": false
+      }
+    },
+    {
+      "n": 4,
+      "id": "deviation",
+      "title": "Keeper asks to rebalance; oracle and pool disagree by 1.0% (limit 0.5%)",
+      "actor": "keeper",
+      "call": "rebalance",
+      "outcome": "refused",
+      "error": "PriceDeviation",
+      "expected": "PriceDeviation",
+      "simulatedAtLedger": 5628272,
+      "at": "2026-11-08T19:10:10.044Z",
+      "stateAfter": {
+        "tickLower": -30,
+        "tickUpper": 30,
+        "liquidity": "20000000000",
+        "totalShares": "20000000000",
+        "lastRebalance": 0,
+        "rebalances": 0,
+        "paused": false
+      }
+    },
+    {
+      "n": 5,
+      "id": "rebalance",
+      "title": "Keeper rebalances: all four guards pass, range re-centred on tick 40",
+      "actor": "keeper",
+      "call": "rebalance",
+      "outcome": "success",
+      "expected": "success",
+      "tx": {
+        "hash": "c0178dd47d89f9812e06faccf5ed2ee4829729b9a437e1b465d4ab9210ca7ed6",
+        "ledger": 5628285,
+        "url": "https://stellar.expert/explorer/testnet/tx/c0178dd47d89f9812e06faccf5ed2ee4829729b9a437e1b465d4ab9210ca7ed6",
+        "feeCharged": "17943"
+      },
+      "result": [
+        10,
+        70
+      ],
+      "at": "2026-11-08T19:11:11.803Z",
+      "stateAfter": {
+        "tickLower": 10,
+        "tickUpper": 70,
+        "liquidity": "20000069681",
+        "totalShares": "20000000000",
+        "lastRebalance": 1794165067,
+        "rebalances": 1,
+        "paused": false
+      }
+    },
+    {
+      "n": 6,
+      "id": "cooldown",
+      "title": "Keeper asks to rebalance again minutes later (minimum interval 60 minutes)",
+      "actor": "keeper",
+      "call": "rebalance",
+      "outcome": "refused",
+      "error": "Cooldown",
+      "expected": "Cooldown",
+      "simulatedAtLedger": 5628302,
+      "at": "2026-11-08T19:12:36.034Z",
+      "stateAfter": {
+        "tickLower": 10,
+        "tickUpper": 70,
+        "liquidity": "20000069681",
+        "totalShares": "20000000000",
+        "lastRebalance": 1794165067,
+        "rebalances": 1,
+        "paused": false
+      }
+    },
+    {
+      "n": 7,
+      "id": "withdraw",
+      "title": "User withdraws half the shares while the oracle is stale",
+      "actor": "user",
+      "call": "withdraw",
+      "outcome": "success",
+      "expected": "success",
+      "tx": {
+        "hash": "eb05e3a65086201ef936f5a30f24b8121328f62b17ca95806df3cca33779ed9b",
+        "ledger": 5628312,
+        "url": "https://stellar.expert/explorer/testnet/tx/eb05e3a65086201ef936f5a30f24b8121328f62b17ca95806df3cca33779ed9b",
+        "feeCharged": "23556"
+      },
+      "result": [
+        "4990039591",
+        "5009994749"
+      ],
+      "at": "2026-11-08T19:13:28.019Z",
+      "note": "Withdrawals are not oracle-gated, so exits stay open when the oracle is down.",
+      "stateAfter": {
+        "tickLower": 10,
+        "tickUpper": 70,
+        "liquidity": "10000035341",
+        "totalShares": "10000000000",
+        "lastRebalance": 1794165067,
+        "rebalances": 1,
+        "paused": false
+      }
+    }
+  ]
+}

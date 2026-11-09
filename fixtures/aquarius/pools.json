@@ -1,0 +1,2124 @@
+{
+ "capturedAt": "2026-11-03T20:32:15.012Z",
+ "source": "https://amm-api.aqua.network/pools/?pool_type=concentrated&size=100",
+ "usdScale": 10000000,
+ "items": [
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CAO42BYISQR7OLYFD4ECMHRYESGLN2LOBEUWSSWOEH4GQ42RL3VCCNYD",
+   "share_token_address": "CAO42BYISQR7OLYFD4ECMHRYESGLN2LOBEUWSSWOEH4GQ42RL3VCCNYD",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CDNDPEI4X6NYKEVAIOH2T3AIVYOWY6LDT7RITBTT3XXTIETTUSATZQ7A",
+    "CD3ZMWOS4PZS2RQITEHBOTS27DTDP4QKOK7IEO5IB64GQKHRJYTVL3SW"
+   ],
+   "tokens_str": [
+    "XLD:GBE6IZPK5MPLVPMD3NZ2YW5BY4GBB5IDYDXTIERGA3A5S2XANCUCTXLD",
+    "SPY:GDYUTHY75A7WUZJQDPOP66FB32BOYGZRXHWTWO4Q6LQTANT5X3V5HNFA"
+   ],
+   "reserves": [
+    "172356868.0000000",
+    "253072.0000000"
+   ],
+   "volume": "0.0000000",
+   "liquidity": "2295635464.9271151",
+   "volume_usd": "0.0000000",
+   "liquidity_usd": "375092725.1889130",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "230321012.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "49136338380911dda8f39cc141fcdbfb001149f9a9fde30c7fa6a098e6a96fd6",
+   "address": "CATEGTMB5ZOTOIJ464J6L6KUB2VZ3ACTDNSKDQLTNZMNTGPSWWJTRBQU",
+   "share_token_address": "CATEGTMB5ZOTOIJ464J6L6KUB2VZ3ACTDNSKDQLTNZMNTGPSWWJTRBQU",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CBEF3NDHJLMOASK2AVKRFXMFGSG4MZRRJIWVPCOIOXWVNRKFKCVI6MV4",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "DNA:GBGAPJ5ZSJYRQDFKPMQSXMH6HFKCH5CWJZSZLYMXLZHT2TECOAOBCDNA",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "38962133681753.0000000",
+    "3012713592.0000000"
+   ],
+   "volume": "1359003952.7457827",
+   "liquidity": "24450463185.5235600",
+   "volume_usd": "222052892.9640424",
+   "liquidity_usd": "3995055403.3980310",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0100",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "1754317416503.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "49136338380911dda8f39cc141fcdbfb001149f9a9fde30c7fa6a098e6a96fd6",
+   "address": "CAB5HVRUUDDYZZFGERQXMGKS6FVKOUCGUZGZXTMBVHZZHGA3IQT3ATRP",
+   "share_token_address": "CAB5HVRUUDDYZZFGERQXMGKS6FVKOUCGUZGZXTMBVHZZHGA3IQT3ATRP",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAUWIZQ6DSI2DT5LVYC7Y7B7GUM75A45Y4YLSR35FZ5CKYJQGYUFLAHR",
+    "CBEF3NDHJLMOASK2AVKRFXMFGSG4MZRRJIWVPCOIOXWVNRKFKCVI6MV4"
+   ],
+   "tokens_str": [
+    "GIFT:GCMYNJ7QN6A5UZJWBGBT2EV4TA3ASZMZKJRCVYM7H6DQT6225DGQGIFT",
+    "DNA:GBGAPJ5ZSJYRQDFKPMQSXMH6HFKCH5CWJZSZLYMXLZHT2TECOAOBCDNA"
+   ],
+   "reserves": [
+    "767201834072.0000000",
+    "438744694877.0000000"
+   ],
+   "volume": "813374791.3930663",
+   "liquidity": "937193349.6861704",
+   "volume_usd": "132900441.6270748",
+   "liquidity_usd": "153131633.0199109",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0100",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "5651219930181.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CC2WWGEKJ6HT6FGCQ6QDES7EWUW6BNHMWQ2CHYNUZON6FZ24LYN5EREC",
+   "share_token_address": "CC2WWGEKJ6HT6FGCQ6QDES7EWUW6BNHMWQ2CHYNUZON6FZ24LYN5EREC",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCNOV6XVI2O5BSTA3232GIRUQULDEBV7IWGKM6QKI6II5OIIQTU24JJN",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "USDE:GDJ5BNU5NN6NQ54D7OX6NQTUYNBZ42CAT33QGM5BIQ2QIYADAC5ICH47",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "1287161090.0000000",
+    "722305406.0000000"
+   ],
+   "volume": "556661143.4993395",
+   "liquidity": "12304402753.9986505",
+   "volume_usd": "90884861.3576813",
+   "liquidity_usd": "2008913234.6410417",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "208777490868.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CAV2UZTSDA2TXBY3CYXYV7ZE3BWEXEKBQOJ4QE3F4ONOL6IXM53YVATL",
+   "share_token_address": "CAV2UZTSDA2TXBY3CYXYV7ZE3BWEXEKBQOJ4QE3F4ONOL6IXM53YVATL",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CBSJZEIO5C7KC2SF3MKSNXXJSW5G3VTNBX4ATMKUI3B2MR4JKM4R26YF",
+    "CDNDPEI4X6NYKEVAIOH2T3AIVYOWY6LDT7RITBTT3XXTIETTUSATZQ7A"
+   ],
+   "tokens_str": [
+    "USDT0:GATISXX6BZ6NC7IKQBY37CJD4SOZL3CYZJWXEDG6JVIY4WBS6KXJHN6Q",
+    "XLD:GBE6IZPK5MPLVPMD3NZ2YW5BY4GBB5IDYDXTIERGA3A5S2XANCUCTXLD"
+   ],
+   "reserves": [
+    "95562463.0000000",
+    "348270382.0000000"
+   ],
+   "volume": "713089052.9511425",
+   "liquidity": "2972315099.4707267",
+   "volume_usd": "116514368.3569626",
+   "liquidity_usd": "485658018.3631319",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "3077626540.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CBNPFXQT7BMMAZSCAP4Z3VWBXMSFRDRUFABPABPIKPGHGN7IHV3J2MD3",
+   "share_token_address": "CBNPFXQT7BMMAZSCAP4Z3VWBXMSFRDRUFABPABPIKPGHGN7IHV3J2MD3",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "native",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "1016777361347.0000000",
+    "199361097503.0000000"
+   ],
+   "volume": "2152218340896.6050915",
+   "liquidity": "2227399287349.8093161",
+   "volume_usd": "351388035267.2377430",
+   "liquidity_usd": "363662665848.0352944",
+   "apy": "0.3029158",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.5838569",
+   "rewards_tps": "0.8867727",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.8867727",
+   "apy_tier": 3,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "24633717.0000000",
+   "total_share": "9450823209791.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CCU7TJ5XXFZOWRWXWEX3F4UIDY27UKITATVWRUIQOKJOIBXQB7IHWWQN",
+   "share_token_address": "CCU7TJ5XXFZOWRWXWEX3F4UIDY27UKITATVWRUIQOKJOIBXQB7IHWWQN",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CBS6HUZIOWD6VMBWGSBOPF4AALO7TNY277GI6YEHZHA6JVWC7VQ7C3G5",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "Bitcoin",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "33478807.0000000",
+    "224156275857.0000000"
+   ],
+   "volume": "0.0000000",
+   "liquidity": "2947688152932.8620745",
+   "volume_usd": "0.0000000",
+   "liquidity_usd": "481634126664.6899214",
+   "apy": "0.0014614",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0014614",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0014614",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "9456274600.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CATBRG3ADIAEYW6W7K4OHINZAS4WFJ4QG737HR5F3DY5VMNVUWTQMWYY",
+   "share_token_address": "CATBRG3ADIAEYW6W7K4OHINZAS4WFJ4QG737HR5F3DY5VMNVUWTQMWYY",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75",
+    "CDTRXQUOFLCNAEC7DBZT36MBVQ2EDUNUKT4GYOZHOMYOFR7QWTC5IIRV"
+   ],
+   "tokens_str": [
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+    "Ether"
+   ],
+   "reserves": [
+    "207317345471.0000000",
+    "11988752246879728654.0000000"
+   ],
+   "volume": "0.0000000",
+   "liquidity": "3024221809167.7734110",
+   "volume_usd": "0.0000000",
+   "liquidity_usd": "494139255690.7985020",
+   "apy": "0.0008589",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0008589",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0008589",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "5449341379757577.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CAKJKVAJJQEVFPBTWG5IQ4WJHL5AE27RYYIVFBYJXW5HVE4A7UDJZ6UH",
+   "share_token_address": "CAKJKVAJJQEVFPBTWG5IQ4WJHL5AE27RYYIVFBYJXW5HVE4A7UDJZ6UH",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CB7OOP3VSAWBZOOTOG2YEFANVU45GVWYUUM5HI32DKLHVKUDOFVQ37XP",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "XRP",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "13635704208.0000000",
+    "132604929659.0000000"
+   ],
+   "volume": "108004775496.9540844",
+   "liquidity": "1870901132318.8561124",
+   "volume_usd": "17643734349.5754375",
+   "liquidity_usd": "305631694719.6905263",
+   "apy": "0.0100318",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0100318",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0100318",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "153620409458.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CA26X2GYYE2H3ZXNXFPU537O2HITDXNMF5HXUJVL3O7XEVQUUB4RQ54T",
+   "share_token_address": "CA26X2GYYE2H3ZXNXFPU537O2HITDXNMF5HXUJVL3O7XEVQUUB4RQ54T",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75",
+    "CDJXSUXNKP6YPEPRQUSMPP2IMPYOH5GLU7ZUZV5OZCMA3AMW7BT4TXAD"
+   ],
+   "tokens_str": [
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+    "Solana"
+   ],
+   "reserves": [
+    "209074279963.0000000",
+    "314259963478.0000000"
+   ],
+   "volume": "62897431940.1344562",
+   "liquidity": "3101729173407.0336109",
+   "volume_usd": "10277053789.3559910",
+   "liquidity_usd": "506803482620.0670117",
+   "apy": "0.0024113",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0024113",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0024113",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "903317084576.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CD2CU3DRKJAFLB2ZQFFBQ4WL4Q5XZ36CMTP3PXFLHBNFWFXR3JAGNKLH",
+   "share_token_address": "CD2CU3DRKJAFLB2ZQFFBQ4WL4Q5XZ36CMTP3PXFLHBNFWFXR3JAGNKLH",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CCJVS6IVXAAXWCMFVK6QLWHZHR4RTVRSEZRQ53GOAEDN3VY2BLPVY72J"
+   ],
+   "tokens_str": [
+    "native",
+    "SCOP:GC6OYQJIZF3HFXCYPFCBXYXNGIBQ4TNSFUBUXQJOZWIP6F3YZK4QH3VQ"
+   ],
+   "reserves": [
+    "27.0000000",
+    "28.0000000"
+   ],
+   "volume": "0.0000000",
+   "liquidity": "27.4841124",
+   "volume_usd": "0.0000000",
+   "liquidity_usd": "4.4907350",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "0.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CAVB532FDYEWBXNSCSKACTZI3BV3QBNFLH2UQRR5HIKFKLFVQW5YGZVY",
+   "share_token_address": "CAVB532FDYEWBXNSCSKACTZI3BV3QBNFLH2UQRR5HIKFKLFVQW5YGZVY",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CAUIKL3IYGMERDRUN6YSCLWVAKIFG5Q4YJHUKM4S4NJZQIA3BAS6OJPK"
+   ],
+   "tokens_str": [
+    "native",
+    "AQUA:GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA"
+   ],
+   "reserves": [
+    "66294585988.0000000",
+    "39555787968484.0000000"
+   ],
+   "volume": "1285734582.1507753",
+   "liquidity": "132487809493.7170345",
+   "volume_usd": "210081128.1480504",
+   "liquidity_usd": "21647693754.7598168",
+   "apy": "0.0023103",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0032072",
+   "rewards_tps": "0.0055175",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0055175",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "8050.0000000",
+   "total_share": "1643622681370.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CAPQ3TMDYZBV4Y7J3HULP4VOHSQKGDDBC4QF5EZGPK3O5Y4ARXWBHISB",
+   "share_token_address": "CAPQ3TMDYZBV4Y7J3HULP4VOHSQKGDDBC4QF5EZGPK3O5Y4ARXWBHISB",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAESLMGW5LYTIEJI7FJHK6SFSWRELLNVX5Q4WR4UZEALMTRWQDBKDPAG",
+    "CCKCKCPHYVXQD4NECBFJTFSCU2AMSJGCNG4O6K4JVRE2BLPR7WNDBQIQ"
+   ],
+   "tokens_str": [
+    "VELO:GDM4RQUQQUVSKQA7S6EM7XBZP3FCGH4Q7CL6TABQ7B2BEJ5ERARM2M5M",
+    "SHX:GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH"
+   ],
+   "reserves": [
+    "2893760274749.0000000",
+    "4399098671557.0000000"
+   ],
+   "volume": "45508824810.1581771",
+   "liquidity": "175255806776.0072822",
+   "volume_usd": "7428037775.4383128",
+   "liquidity_usd": "28605589323.1178158",
+   "apy": "0.1535015",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.1535015",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.1535015",
+   "apy_tier": 2,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "58179644203639.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CALCNPWBGQOPFTY3BSAZKAGI3MXEHZZ7VOMSMTX3ISYWBTFNGGFQVK5O",
+   "share_token_address": "CALCNPWBGQOPFTY3BSAZKAGI3MXEHZZ7VOMSMTX3ISYWBTFNGGFQVK5O",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAH5LKJC2ZB4RVUVEVL2QWJWNJLHQE2UF767ILLQ5EQ4O3OURR2XIUGM",
+    "CDNDPEI4X6NYKEVAIOH2T3AIVYOWY6LDT7RITBTT3XXTIETTUSATZQ7A"
+   ],
+   "tokens_str": [
+    "SODA:GDYUTHY75A7WUZJQDPOP66FB32BOYGZRXHWTWO4Q6LQTANT5X3V5HNFA",
+    "XLD:GBE6IZPK5MPLVPMD3NZ2YW5BY4GBB5IDYDXTIERGA3A5S2XANCUCTXLD"
+   ],
+   "reserves": [
+    "388148531341.0000000",
+    "1869831683.0000000"
+   ],
+   "volume": "30414097.0494396",
+   "liquidity": "32632921582.6410211",
+   "volume_usd": "4969476.5221780",
+   "liquidity_usd": "5332018813.2297995",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "309175494371.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CDQ223FWK2XEEYXNNJQS4JCQ5DUCPXKJNNDNRJ3RON5LXH43UO7ECWUY",
+   "share_token_address": "CDQ223FWK2XEEYXNNJQS4JCQ5DUCPXKJNNDNRJ3RON5LXH43UO7ECWUY",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75",
+    "CDOFW7HNKLUZRLFZST4EW7V3AV4JI5IHMT6BPXXSY2IEFZ4NE5TWU2P4"
+   ],
+   "tokens_str": [
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+    "yUSDC:GDGTVWSM4MGS4T7Z6W4RPWOCHE2I6RDFCIFZGS3DOA63LWQTRNZNTTFF"
+   ],
+   "reserves": [
+    "185125628669.0000000",
+    "98555402107.0000000"
+   ],
+   "volume": "0.0000000",
+   "liquidity": "1696298050463.9361827",
+   "volume_usd": "0.0000000",
+   "liquidity_usd": "277164675403.4439670",
+   "apy": "0.0000015",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.1876579",
+   "rewards_tps": "0.1876594",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.1876594",
+   "apy_tier": 2,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "6030539.0000000",
+   "total_share": "187707513327621.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CB3ZWHICKIYJOSQ7W2GFN2U2CVSGTFBQ6GCDVGQ354BQYJCKX6L22CNH",
+   "share_token_address": "CB3ZWHICKIYJOSQ7W2GFN2U2CVSGTFBQ6GCDVGQ354BQYJCKX6L22CNH",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAUIKL3IYGMERDRUN6YSCLWVAKIFG5Q4YJHUKM4S4NJZQIA3BAS6OJPK",
+    "CCCRWH6Q3FNP3I2I57BDLM5AFAT7O6OF6GKQOC6SSJNDAVRZ57SPHGU2"
+   ],
+   "tokens_str": [
+    "AQUA:GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+    "PYUSD:GDQE7IXJ4HUHV6RQHIUPRJSEZE4DRS5WY577O2FY6YQ5LVWZ7JZTU2V5"
+   ],
+   "reserves": [
+    "176563526239883.0000000",
+    "17581715980.0000000"
+   ],
+   "volume": "298717259403.4320216",
+   "liquidity": "403136381974.4841492",
+   "volume_usd": "48795887521.3281815",
+   "liquidity_usd": "65852899125.6409262",
+   "apy": "0.1706197",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.9029993",
+   "rewards_tps": "1.0736190",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "1.0736190",
+   "apy_tier": 3,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "6895580.0000000",
+   "total_share": "80240517643437.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CD74JDJIRBMCKPI5LV5C4A7L4NIPCLJ3VOVYILFFXF3TSTALPOLY7CHC",
+   "share_token_address": "CD74JDJIRBMCKPI5LV5C4A7L4NIPCLJ3VOVYILFFXF3TSTALPOLY7CHC",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAUIKL3IYGMERDRUN6YSCLWVAKIFG5Q4YJHUKM4S4NJZQIA3BAS6OJPK",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "AQUA:GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "1348131996913564.0000000",
+    "300605457513.0000000"
+   ],
+   "volume": "1905238225543.3585237",
+   "liquidity": "4082267046153.8719493",
+   "volume_usd": "311064125822.2980495",
+   "liquidity_usd": "666502914470.3828222",
+   "apy": "0.1281644",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.2802059",
+   "rewards_tps": "0.4083703",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.4083703",
+   "apy_tier": 3,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "21667265.0000000",
+   "total_share": "834878715970652.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CCJHUCHZ2DC6MP7LMGQJYSENNTGIFWU4J4TCGFYYDLAC5LTD4YMF6HSQ",
+   "share_token_address": "CCJHUCHZ2DC6MP7LMGQJYSENNTGIFWU4J4TCGFYYDLAC5LTD4YMF6HSQ",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CBSJZEIO5C7KC2SF3MKSNXXJSW5G3VTNBX4ATMKUI3B2MR4JKM4R26YF",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "USDT0:GATISXX6BZ6NC7IKQBY37CJD4SOZL3CYZJWXEDG6JVIY4WBS6KXJHN6Q",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "404778666633.0000000",
+    "354116424197.0000000"
+   ],
+   "volume": "0.0000000",
+   "liquidity": "4458425057265.2637892",
+   "volume_usd": "0.0000000",
+   "liquidity_usd": "728479251314.0836516",
+   "apy": "0.0003235",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0649876",
+   "rewards_tps": "0.0653112",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0653112",
+   "apy_tier": 1,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "5489077.0000000",
+   "total_share": "83597068048434.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CDL5H2BZTIPBPIKJ2NOILZQYZRZE553H3SZX47DDBYEBXSWXIHZLGA2C",
+   "share_token_address": "CDL5H2BZTIPBPIKJ2NOILZQYZRZE553H3SZX47DDBYEBXSWXIHZLGA2C",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CBIJBDNZNF4X35BJ4FFZWCDBSCKOP5NB4PLG4SNENRMLAPYG4P5FM6VN"
+   ],
+   "tokens_str": [
+    "native",
+    "Solv BTC"
+   ],
+   "reserves": [
+    "1055379493396.0000000",
+    "7513933.0000000"
+   ],
+   "volume": "152503872738.8372024",
+   "liquidity": "1403878518818.6172819",
+   "volume_usd": "24918195463.2722050",
+   "liquidity_usd": "229385121245.5321187",
+   "apy": "0.0350211",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.2311559",
+   "rewards_tps": "0.2661770",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.2661770",
+   "apy_tier": 2,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "6147827.0000000",
+   "total_share": "148956673667.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CA4HVQTVHQWDIZSQQQBXYHCA4C5D6V2ZGRHJQIKHVDMBEXCMFH4NYURR",
+   "share_token_address": "CA4HVQTVHQWDIZSQQQBXYHCA4C5D6V2ZGRHJQIKHVDMBEXCMFH4NYURR",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CC2RBGYNCFBCVENIDL5BFBWPH4OUZM2UA3OD2K2N54GLMWCC4KWPVAGO",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "Matrixdock Gold",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "837792471.0000000",
+    "56672669605.0000000"
+   ],
+   "volume": "259848305.0491721",
+   "liquidity": "541396436247.2707920",
+   "volume_usd": "42457615.9262762",
+   "liquidity_usd": "88460850070.5497867",
+   "apy": "0.0077605",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0077605",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0077605",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "160759047444.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CDRRS2SLIP7THFGUZVB4QL2RAM2ZHSDMAD2GL5GEXTKK5AY3DQUX3Y7N",
+   "share_token_address": "CDRRS2SLIP7THFGUZVB4QL2RAM2ZHSDMAD2GL5GEXTKK5AY3DQUX3Y7N",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAESLMGW5LYTIEJI7FJHK6SFSWRELLNVX5Q4WR4UZEALMTRWQDBKDPAG",
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA"
+   ],
+   "tokens_str": [
+    "VELO:GDM4RQUQQUVSKQA7S6EM7XBZP3FCGH4Q7CL6TABQ7B2BEJ5ERARM2M5M",
+    "native"
+   ],
+   "reserves": [
+    "22585772665625.0000000",
+    "328047395213.0000000"
+   ],
+   "volume": "229975219257.3724480",
+   "liquidity": "780371970559.4599332",
+   "volume_usd": "37547556825.1755496",
+   "liquidity_usd": "127409644412.8782885",
+   "apy": "0.2995983",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.3440497",
+   "rewards_tps": "0.6436481",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.6436481",
+   "apy_tier": 3,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "5085672.0000000",
+   "total_share": "48180705515842.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CC642QYWXXR2HUZDNJ6KYN5LV5JFPFPT4Q6YNKLZLYEFWZZZ5SJYLA5G",
+   "share_token_address": "CC642QYWXXR2HUZDNJ6KYN5LV5JFPFPT4Q6YNKLZLYEFWZZZ5SJYLA5G",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CCKCKCPHYVXQD4NECBFJTFSCU2AMSJGCNG4O6K4JVRE2BLPR7WNDBQIQ"
+   ],
+   "tokens_str": [
+    "native",
+    "SHX:GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH"
+   ],
+   "reserves": [
+    "2335953822832.0000000",
+    "147293127748575.0000000"
+   ],
+   "volume": "1938722688377.4374861",
+   "liquidity": "6263025971944.4232881",
+   "volume_usd": "316531061673.3995541",
+   "liquidity_usd": "1022550709326.4565253",
+   "apy": "0.2572419",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.2262509",
+   "rewards_tps": "0.4834928",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.4834928",
+   "apy_tier": 3,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "26841082.0000000",
+   "total_share": "270492832682419.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CDINXPGR3BJCPBC7IQQIL5AEHAVDZZSIGNCWJ7ORPVBRCL6L5RJ3FDQM",
+   "share_token_address": "CDINXPGR3BJCPBC7IQQIL5AEHAVDZZSIGNCWJ7ORPVBRCL6L5RJ3FDQM",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAUIKL3IYGMERDRUN6YSCLWVAKIFG5Q4YJHUKM4S4NJZQIA3BAS6OJPK",
+    "CCKCKCPHYVXQD4NECBFJTFSCU2AMSJGCNG4O6K4JVRE2BLPR7WNDBQIQ"
+   ],
+   "tokens_str": [
+    "AQUA:GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+    "SHX:GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH"
+   ],
+   "reserves": [
+    "630469403349.0000000",
+    "39954109394.0000000"
+   ],
+   "volume": "10804210.1004023",
+   "liquidity": "2107634609.6764719",
+   "volume_usd": "1765341.5239436",
+   "liquidity_usd": "344374540.9601077",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "158906699288.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CDQ4OYM3RPLEWNZFVAJQGEYLSDMPHEZYMHVOQBKI767UWV5XV5ISAJE2",
+   "share_token_address": "CDQ4OYM3RPLEWNZFVAJQGEYLSDMPHEZYMHVOQBKI767UWV5XV5ISAJE2",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAUIKL3IYGMERDRUN6YSCLWVAKIFG5Q4YJHUKM4S4NJZQIA3BAS6OJPK",
+    "CD25MNVTZDL4Y3XBCPCJXGXATV5WUHHOWMYFF4YBEGU5FCPGMYTVG5JY"
+   ],
+   "tokens_str": [
+    "AQUA:GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+    "BLND:GDJEHTBE6ZHUXSWFI642DCGLUOECLHPF3KSXHPXTSTJ7E3JF6MQ5EZYY"
+   ],
+   "reserves": [
+    "19772041511.0000000",
+    "795839972.0000000"
+   ],
+   "volume": "651419509.9631730",
+   "liquidity": "66398106.8088378",
+   "volume_usd": "106437944.0753545",
+   "liquidity_usd": "10849042.5465274",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "3960560304.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CCKQASCNLYGCUYRKDFYHW5SRVUQNRPRX27YAK62CBNLEVSKIXE3CO4LI",
+   "share_token_address": "CCKQASCNLYGCUYRKDFYHW5SRVUQNRPRX27YAK62CBNLEVSKIXE3CO4LI",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CB7OOP3VSAWBZOOTOG2YEFANVU45GVWYUUM5HI32DKLHVKUDOFVQ37XP"
+   ],
+   "tokens_str": [
+    "native",
+    "XRP"
+   ],
+   "reserves": [
+    "83745298399.0000000",
+    "454576030.0000000"
+   ],
+   "volume": "13411091446.3410704",
+   "liquidity": "119055052746.9398572",
+   "volume_usd": "2190845115.2123214",
+   "liquidity_usd": "19448915235.2428904",
+   "apy": "0.0739466",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0739466",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0739466",
+   "apy_tier": 1,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "33572097043.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "49136338380911dda8f39cc141fcdbfb001149f9a9fde30c7fa6a098e6a96fd6",
+   "address": "CDBIGH3UEIVPVU7I2PGJV3IFIAN6OIPZ3QW7EDOO6LAHYBWW4MVS75Z2",
+   "share_token_address": "CDBIGH3UEIVPVU7I2PGJV3IFIAN6OIPZ3QW7EDOO6LAHYBWW4MVS75Z2",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CDRAGD2HAI6EDPK626ENJLNMHB4QUVVW6BFYO34P26DBMP2ZB3CF6MDK"
+   ],
+   "tokens_str": [
+    "native",
+    "LOVE:GCLEW3MLTF35AM3GK6LOCAFS4ETKNGHN5IWU23I3IGOSK7IYWYWAB3GS"
+   ],
+   "reserves": [
+    "2153277848.0000000",
+    "767475310098113.0000000"
+   ],
+   "volume": "1804912714.3757705",
+   "liquidity": "7507756425.0110079",
+   "volume_usd": "294911643.9028443",
+   "liquidity_usd": "1226721254.5443748",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0100",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "4741821774766.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CAWR3CM74VNXM5MRIPILDSTW5S4ZNB47DYBEVE6565UC573L7OFZF7FH",
+   "share_token_address": "CAWR3CM74VNXM5MRIPILDSTW5S4ZNB47DYBEVE6565UC573L7OFZF7FH",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CB3YA656OYIHU57657I5KGSBRHE5I3OZU4VFC22PYAOANFZHEWNYGAGP",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "USDY:GAJMPX5NBOG6TQFPQGRABJEEB2YE7RFRLUKJDZAZGAD5GFX4J7TADAZ6",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "6866433815.0000000",
+    "22167849766.0000000"
+   ],
+   "volume": "14832102358.7343877",
+   "liquidity": "181784536889.6427116",
+   "volume_usd": "2423474362.1175151",
+   "liquidity_usd": "29702476016.2892095",
+   "apy": "0.0432903",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0432903",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0432903",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "3027321585492.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CDM3E67MHCLMFXRDJWOIZRRYPKENH7CMARTOQBEZQQZVLQV52RVPMINA",
+   "share_token_address": "CDM3E67MHCLMFXRDJWOIZRRYPKENH7CMARTOQBEZQQZVLQV52RVPMINA",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CBLV4ATSIWU67CFSQU2NVRKINQIKUZ2ODSZBUJTJ43VJVRSBTZYOPNUR",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "USTRY:GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "18863168846.0000000",
+    "142340677773.0000000"
+   ],
+   "volume": "80612753401.2898053",
+   "liquidity": "988327088156.4117738",
+   "volume_usd": "13170527123.2845071",
+   "liquidity_usd": "161473069359.6746767",
+   "apy": "0.0185941",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0185941",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0185941",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "23652963041951.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CCC466Y3A5332PRE7NQOKOLJXDHF5CNS2M5MT7I7YIPNKLUO4YETIE3B",
+   "share_token_address": "CCC466Y3A5332PRE7NQOKOLJXDHF5CNS2M5MT7I7YIPNKLUO4YETIE3B",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAL6ER2TI6CTRAY6BFXWNWA7WTYXUXTQCHUBCIBU5O6KM3HJFG6Z6VXV",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "CETES:GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "2602073353487.0000000",
+    "177384560185.0000000"
+   ],
+   "volume": "1281986535250.3210516",
+   "liquidity": "2083684925257.3955034",
+   "volume_usd": "209426201421.3175840",
+   "liquidity_usd": "340392201366.0705509",
+   "apy": "0.0569957",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0954789",
+   "rewards_tps": "0.1524746",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.1524746",
+   "apy_tier": 2,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "3768370.0000000",
+   "total_share": "101190095157954.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CDE53ZA37BXC3RA4J4CX2ZRCJ3B4DKXK7VCVK3OMDBBIIBZASTVQQM5L",
+   "share_token_address": "CDE53ZA37BXC3RA4J4CX2ZRCJ3B4DKXK7VCVK3OMDBBIIBZASTVQQM5L",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CA67EQNWGPGXHVT6E4HQ65WEV54KFDB6HJDHVCJM33VKZ7XKR5MN3KPJ",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "GYEN:GDF6VOEGRWLOZ64PQQGKD2IYWA22RLT37GJKS2EJXZHT2VLAGWLC5TOB",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "286562.0000000",
+    "2908198.0000000"
+   ],
+   "volume": "0.0000000",
+   "liquidity": "16824723.3240149",
+   "volume_usd": "0.0000000",
+   "liquidity_usd": "2749056.3804975",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "5084389385.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CCVWACSSUYADCHYEYUCKUQL4YISMLLFFXY56UHCVIYR6D6P77RCRGQY7",
+   "share_token_address": "CCVWACSSUYADCHYEYUCKUQL4YISMLLFFXY56UHCVIYR6D6P77RCRGQY7",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CACXKRVCW7I6CWX6RS6ANFDKVCOUI2PB6LTDUROL3J3FMJCRZ4ZLQRF6",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "AUDD:GDC7X2MXTYSAKUUGAIQ7J7RPEIM7GXSAIWFYWWH4GLNFECQVJJLB2EEU",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "2149600644.0000000",
+    "180650840.0000000"
+   ],
+   "volume": "0.0000000",
+   "liquidity": "10040810575.2694119",
+   "volume_usd": "0.0000000",
+   "liquidity_usd": "1640606733.6579661",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "28986317945.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CB665SVTHHKPYX4LUSTYUG5T22WMDETNWWKXRDES3I74NADZG6SIBP5F",
+   "share_token_address": "CB665SVTHHKPYX4LUSTYUG5T22WMDETNWWKXRDES3I74NADZG6SIBP5F",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CC546RSLM66Y34CYQDOLJ5HXOTN4C3PQ4QUH3FP3MJHOBLVUZWLE6JGG",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "CNY:GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "42530596920.0000000",
+    "19089071459.0000000"
+   ],
+   "volume": "8431287402.5959239",
+   "liquidity": "154383919051.4560902",
+   "volume_usd": "1377262741.9610530",
+   "liquidity_usd": "25218831895.3562773",
+   "apy": "0.0150733",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0150733",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0150733",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "1176829348545.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CAT65JSA4B3AK7SIUWB5ZONZALAS2HGMFG7EF5GP7BIOKJP6Y4O6J5BF",
+   "share_token_address": "CAT65JSA4B3AK7SIUWB5ZONZALAS2HGMFG7EF5GP7BIOKJP6Y4O6J5BF",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG",
+    "CD6M4R2322BYCY2LNWM74PEBQAQ63SA3DUJLI3L4225U4ZVCLMSCBCIS"
+   ],
+   "tokens_str": [
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH",
+    "TESOURO:GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
+   ],
+   "reserves": [
+    "37430266068.0000000",
+    "188755469542.0000000"
+   ],
+   "volume": "119905382082.6978397",
+   "liquidity": "494506121612.4362169",
+   "volume_usd": "19591802451.8082343",
+   "liquidity_usd": "80799260863.5264132",
+   "apy": "0.0339922",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.3140147",
+   "rewards_tps": "0.3480069",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.3480069",
+   "apy_tier": 3,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "2941771.0000000",
+   "total_share": "2764531316967.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CCPN4NNSQKL3LLPTSPTFKYKXR3FBL37AULE6PTZH3QD24MPHXQCN5O3U",
+   "share_token_address": "CCPN4NNSQKL3LLPTSPTFKYKXR3FBL37AULE6PTZH3QD24MPHXQCN5O3U",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG",
+    "CDTKPWPLOURQA2SGTKTUQOWRCBZEORB4BWBOMJ3D3ZTQQSGE5F6JBQLV"
+   ],
+   "tokens_str": [
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH",
+    "EURC:GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2"
+   ],
+   "reserves": [
+    "502276650977.0000000",
+    "255944907137.0000000"
+   ],
+   "volume": "1403510553228.7882538",
+   "liquidity": "4791494063998.0556725",
+   "volume_usd": "229083687638.5938068",
+   "liquidity_usd": "782076862161.0620618",
+   "apy": "0.0391658",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0382205",
+   "rewards_tps": "0.0773864",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0773864",
+   "apy_tier": 1,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "3468911.0000000",
+   "total_share": "34585707744538.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CC7IGNJ4CDAKZPOZJCTTWGAVKTQXKYQGUSVJ5CDUPES3QULCQW6UNAH5",
+   "share_token_address": "CC7IGNJ4CDAKZPOZJCTTWGAVKTQXKYQGUSVJ5CDUPES3QULCQW6UNAH5",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCCRWH6Q3FNP3I2I57BDLM5AFAT7O6OF6GKQOC6SSJNDAVRZ57SPHGU2",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "PYUSD:GDQE7IXJ4HUHV6RQHIUPRJSEZE4DRS5WY577O2FY6YQ5LVWZ7JZTU2V5",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "1438459444.0000000",
+    "603108058204.0000000"
+   ],
+   "volume": "366433173615.7827326",
+   "liquidity": "3669147461608.6873812",
+   "volume_usd": "59860775066.6641273",
+   "liquidity_usd": "599394450885.8168635",
+   "apy": "0.0206195",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0440069",
+   "rewards_tps": "0.0646264",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0646264",
+   "apy_tier": 1,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "3058442.0000000",
+   "total_share": "146064996301315.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CAPIOQNULTKVYOJT6X2W2XKGNIVUWZDY72Y42YG6HQKJ7DU7YTHIDQYX",
+   "share_token_address": "CAPIOQNULTKVYOJT6X2W2XKGNIVUWZDY72Y42YG6HQKJ7DU7YTHIDQYX",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCCRWH6Q3FNP3I2I57BDLM5AFAT7O6OF6GKQOC6SSJNDAVRZ57SPHGU2",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "PYUSD:GDQE7IXJ4HUHV6RQHIUPRJSEZE4DRS5WY577O2FY6YQ5LVWZ7JZTU2V5",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "647597666270.0000000",
+    "2117270733586.0000000"
+   ],
+   "volume": "9611344041.8390040",
+   "liquidity": "16896920581492.7280407",
+   "volume_usd": "1570434541.7472780",
+   "liquidity_usd": "2760852968619.7210833",
+   "apy": "0.0000568",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0824823",
+   "rewards_tps": "0.0825391",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0825391",
+   "apy_tier": 1,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "26403131.0000000",
+   "total_share": "2302989915726306.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CBV6LZABOAJRXHLIEKILTWBPC2AXLYVR4CGGPKZQ3PWJ5QFTPIWSWGWQ",
+   "share_token_address": "CBV6LZABOAJRXHLIEKILTWBPC2AXLYVR4CGGPKZQ3PWJ5QFTPIWSWGWQ",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75",
+    "CDFZUVS5YNLXU7VENKOUDEOHCJGKQNVUBWD7KMN6E7ZROKPYPFLRUJFG"
+   ],
+   "tokens_str": [
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+    "sUSD:GCHW7CWI7GMIYQYFXMFJNJX5645XGWIINIAEQK3SABQO6CAYL5T7JYIH"
+   ],
+   "reserves": [
+    "208320758904.0000000",
+    "1562697883657.0000000"
+   ],
+   "volume": "3223079443043.7876835",
+   "liquidity": "10765440783380.0880155",
+   "volume_usd": "526225212136.0341369",
+   "liquidity_usd": "1757650241044.6905343",
+   "apy": "0.0789655",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0932320",
+   "rewards_tps": "0.1721976",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.1721976",
+   "apy_tier": 2,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "19011767.0000000",
+   "total_share": "351848458365808.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CCZXH6N6DSJLAMXCYODGD255GTFILMNU4R5AHPE7PED4A4EZEOPYAWL5",
+   "share_token_address": "CCZXH6N6DSJLAMXCYODGD255GTFILMNU4R5AHPE7PED4A4EZEOPYAWL5",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAO7DDJNGMOYQPRYDY5JVZ5YEK4UQBSMGLAEWRCUOTRMDSBMGWSAATDZ",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "BTC:GDPJALI4AZKUU2W426U5WKMAT6CN3AJRPIIRYR2YM54TL2GDWO5O2MZM",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "4223032.0000000",
+    "298512069181.0000000"
+   ],
+   "volume": "144427381536.8300087",
+   "liquidity": "3817113252381.6383344",
+   "volume_usd": "23598546441.8099320",
+   "liquidity_usd": "623692844123.2290521",
+   "apy": "0.0285059",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0285059",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0285059",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "7047195155.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CBWWCFZUIYARXP2VFQKB6TGD63IV6PC5GO4AO6PNP3HGZWHT23FTHMGC",
+   "share_token_address": "CBWWCFZUIYARXP2VFQKB6TGD63IV6PC5GO4AO6PNP3HGZWHT23FTHMGC",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75",
+    "CC546RSLM66Y34CYQDOLJ5HXOTN4C3PQ4QUH3FP3MJHOBLVUZWLE6JGG"
+   ],
+   "tokens_str": [
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+    "CNY:GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX"
+   ],
+   "reserves": [
+    "31259158289.0000000",
+    "384584283600.0000000"
+   ],
+   "volume": "133998021941.2346730",
+   "liquidity": "539909660524.1029212",
+   "volume_usd": "21885976652.5439296",
+   "liquidity_usd": "88183766099.8875290",
+   "apy": "0.0374132",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0374132",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0374132",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "12058950586195.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CAAJYIESEIKI7KZV67MBSXPCRGKH5WY354WUS55H4UNBD35OSKYPZA7Q",
+   "share_token_address": "CAAJYIESEIKI7KZV67MBSXPCRGKH5WY354WUS55H4UNBD35OSKYPZA7Q",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAAV3AE3VKD2P4TY7LWTQMMJHIJ4WOCZ5ANCIJPC3NRSERKVXNHBU2W7",
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA"
+   ],
+   "tokens_str": [
+    "XRP:GBXRPL45NPHCVMFFAYZVUVFFVKSIZ362ZXFP7I2ETNQ3QKZMFLPRDTD5",
+    "native"
+   ],
+   "reserves": [
+    "57737971131.0000000",
+    "808630721662.0000000"
+   ],
+   "volume": "738641496194.7159335",
+   "liquidity": "1258444670010.1351732",
+   "volume_usd": "120658134849.2674854",
+   "liquidity_usd": "205568719705.9360801",
+   "apy": "0.1125760",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.1570817",
+   "rewards_tps": "0.2696577",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.2696577",
+   "apy_tier": 2,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "3744477.0000000",
+   "total_share": "6045089075185.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CADMDTCQHSC2GCYPDCYQ7FBYVOXED3E3WGCYJHHT524ZBALM7VYHFS7F",
+   "share_token_address": "CADMDTCQHSC2GCYPDCYQ7FBYVOXED3E3WGCYJHHT524ZBALM7VYHFS7F",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CBZVSNVB55ANF24QVJL2K5QCLOAB6XITGTGXYEAF6NPTXYKEJUYQOHFC"
+   ],
+   "tokens_str": [
+    "native",
+    "yXLM:GARDNV3Q7YGT4AKSDF25LT32YSCCW4EV22Y2TV3I2PU2MMXJTEDL5T55"
+   ],
+   "reserves": [
+    "12465953792002.0000000",
+    "7941705145369.0000000"
+   ],
+   "volume": "11379509661.0311050",
+   "liquidity": "20401153068781.1296159",
+   "volume_usd": "1859341936.1576375",
+   "liquidity_usd": "3333423018801.5608528",
+   "apy": "0.0002768",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0452838",
+   "rewards_tps": "0.0455606",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0455606",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "17501882.0000000",
+   "total_share": "9776169323100585.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "49136338380911dda8f39cc141fcdbfb001149f9a9fde30c7fa6a098e6a96fd6",
+   "address": "CDPL6QRE7T5XXICU2KJEUL366KEZT6ICOVBLSL46MHMC5RSDIBR2PCTO",
+   "share_token_address": "CDPL6QRE7T5XXICU2KJEUL366KEZT6ICOVBLSL46MHMC5RSDIBR2PCTO",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCOB35AE6UJQPEUCSJYYX42NAEHQD2FHRQSQYGLJAWJL7STGES7BNVYR",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "USDP:GDTEQF6YGCKLIBD37RJZE5GTL3ZY6CBQIKH7COAW654SYEBE6XJJOLOW",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "279.0000000",
+    "274.0000000"
+   ],
+   "volume": "0.0000000",
+   "liquidity": "1534.1432168",
+   "volume_usd": "0.0000000",
+   "liquidity_usd": "250.6695722",
+   "apy": "0.0000000",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0000000",
+   "rewards_tps": "0.0000000",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0000000",
+   "apy_tier": 0,
+   "pool_type": "concentrated",
+   "fee": "0.0100",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "0",
+   "total_share": "0.0000000",
+   "gauge_enabled": false,
+   "version": 220
+  },
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CBRUQ7I6C6OGHMDYWD6XQUZFB6KJ3LLPNE34EPKSPFZ2YMBJ2GIWYYZ7",
+   "share_token_address": "CBRUQ7I6C6OGHMDYWD6XQUZFB6KJ3LLPNE34EPKSPFZ2YMBJ2GIWYYZ7",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAUIKL3IYGMERDRUN6YSCLWVAKIFG5Q4YJHUKM4S4NJZQIA3BAS6OJPK",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "AQUA:GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "1933846735821832.0000000",
+    "149361488870.0000000"
+   ],
+   "volume": "947205978644.2436979",
+   "liquidity": "4152177519004.1359031",
+   "volume_usd": "154648272205.7481941",
+   "liquidity_usd": "677917046221.1715681",
+   "apy": "0.1390708",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.3666095",
+   "rewards_tps": "0.5056803",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.5056803",
+   "apy_tier": 3,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "28834014.0000000",
+   "total_share": "797821261388028.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CDTSE6RLRI7ZO25JSER6E4SQR4PHJJNONEGS5HDJ3Y6LAKECRZKYN5CA",
+   "share_token_address": "CDTSE6RLRI7ZO25JSER6E4SQR4PHJJNONEGS5HDJ3Y6LAKECRZKYN5CA",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75",
+    "CDTKPWPLOURQA2SGTKTUQOWRCBZEORB4BWBOMJ3D3ZTQQSGE5F6JBQLV"
+   ],
+   "tokens_str": [
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+    "EURC:GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2"
+   ],
+   "reserves": [
+    "330634510006.0000000",
+    "706293516971.0000000"
+   ],
+   "volume": "402366205920.6101335",
+   "liquidity": "6735401548072.0568310",
+   "volume_usd": "65744164963.6985109",
+   "liquidity_usd": "1100523214816.3308264",
+   "apy": "0.0254424",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0365612",
+   "rewards_tps": "0.0620037",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.0620037",
+   "apy_tier": 1,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "4665213.0000000",
+   "total_share": "32709590307571.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CBBMQBNHB2FYVZYV7VNHOJHUMTFJLR4PUMRVQYNW6RHIKZO2NQMIBUCV",
+   "share_token_address": "CBBMQBNHB2FYVZYV7VNHOJHUMTFJLR4PUMRVQYNW6RHIKZO2NQMIBUCV",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "native",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "54552121853181.0000000",
+    "3758337602304.0000000"
+   ],
+   "volume": "36247003842785.2368380",
+   "liquidity": "77571582697396.6293105",
+   "volume_usd": "5917969948780.4935292",
+   "liquidity_usd": "12664944591659.2282462",
+   "apy": "0.0967646",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.0365243",
+   "rewards_tps": "0.1332889",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.1332889",
+   "apy_tier": 2,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "53667300.0000000",
+   "total_share": "342101738049718.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "ed45429155f876475d3c7ac18d34273d638d6a5b2fcc736db36d71a5788852c5",
+   "address": "CA4HTZNY2RBZWEQE5GBMNREZMFRPAZSVJ6OGPC7T3VM7NHRJYFAVID2S",
+   "share_token_address": "CA4HTZNY2RBZWEQE5GBMNREZMFRPAZSVJ6OGPC7T3VM7NHRJYFAVID2S",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA",
+    "CAUIKL3IYGMERDRUN6YSCLWVAKIFG5Q4YJHUKM4S4NJZQIA3BAS6OJPK"
+   ],
+   "tokens_str": [
+    "native",
+    "AQUA:GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA"
+   ],
+   "reserves": [
+    "5213820074103.0000000",
+    "4840898172123794.0000000"
+   ],
+   "volume": "3390278389508.4867894",
+   "liquidity": "13317716792757.0160161",
+   "volume_usd": "553523422629.1697777",
+   "liquidity_usd": "2174354826891.2386737",
+   "apy": "0.1719123",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.2043117",
+   "rewards_tps": "0.3762240",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.3762240",
+   "apy_tier": 3,
+   "pool_type": "concentrated",
+   "fee": "0.0030",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "51540479.0000000",
+   "total_share": "21503040687945650.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  },
+  {
+   "index": "24f9c991c44acf33fff5f44031c40385d235dc212d7379e824ba3db1c35371f3",
+   "address": "CCV2X5THRWCT7HCGJU42DMOVYLAARVIPEDG2LQOVVA2WGONF2MZY2OX6",
+   "share_token_address": "CCV2X5THRWCT7HCGJU42DMOVYLAARVIPEDG2LQOVVA2WGONF2MZY2OX6",
+   "share_token_decimals": 0,
+   "tokens_addresses": [
+    "CB3YA656OYIHU57657I5KGSBRHE5I3OZU4VFC22PYAOANFZHEWNYGAGP",
+    "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75"
+   ],
+   "tokens_str": [
+    "USDY:GAJMPX5NBOG6TQFPQGRABJEEB2YE7RFRLUKJDZAZGAD5GFX4J7TADAZ6",
+    "USDC:GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
+   ],
+   "reserves": [
+    "33773465406.0000000",
+    "57230963498.0000000"
+   ],
+   "volume": "4138897479.2210200",
+   "liquidity": "584652493016.7914718",
+   "volume_usd": "676053514.1278943",
+   "liquidity_usd": "95497985739.4358687",
+   "apy": "0.0008534",
+   "incentive_apy": "0.0000000",
+   "rewards_apy": "0.2455400",
+   "rewards_tps": "0.2463934",
+   "incentive_apy_per_token": {},
+   "incentive_tps_per_token": {},
+   "total_apy": "0.2463934",
+   "apy_tier": 2,
+   "pool_type": "concentrated",
+   "fee": "0.0010",
+   "a": null,
+   "deposit_killed": false,
+   "swap_killed": false,
+   "claim_killed": false,
+   "reward_tps": "2719227.0000000",
+   "total_share": "53795781998206.0000000",
+   "gauge_enabled": true,
+   "version": 220
+  }
+ ],
+ "stats": {
+  "CAO42BYISQR7OLYFD4ECMHRYESGLN2LOBEUWSSWOEH4GQ42RL3VCCNYD": {
+   "hours": 3,
+   "volumeUsd30d": 2.97360729528988,
+   "liquidityUsdLast": 38.34439777970872
+  },
+  "CATEGTMB5ZOTOIJ464J6L6KUB2VZ3ACTDNSKDQLTNZMNTGPSWWJTRBQU": {
+   "hours": 30,
+   "volumeUsd30d": 106.05071420130187,
+   "liquidityUsdLast": 400.53190944278185
+  },
+  "CAB5HVRUUDDYZZFGERQXMGKS6FVKOUCGUZGZXTMBVHZZHGA3IQT3ATRP": {
+   "hours": 13,
+   "volumeUsd30d": 15.357171845797929,
+   "liquidityUsdLast": 15.35250447204725
+  },
+  "CC2WWGEKJ6HT6FGCQ6QDES7EWUW6BNHMWQ2CHYNUZON6FZ24LYN5EREC": {
+   "hours": 110,
+   "volumeUsd30d": 10.267935487644849,
+   "liquidityUsdLast": 200.88368547564752
+  },
+  "CAV2UZTSDA2TXBY3CYXYV7ZE3BWEXEKBQOJ4QE3F4ONOL6IXM53YVATL": {
+   "hours": 58,
+   "volumeUsd30d": 52.88729021213623,
+   "liquidityUsdLast": 48.72106157418598
+  },
+  "CBNPFXQT7BMMAZSCAP4Z3VWBXMSFRDRUFABPABPIKPGHGN7IHV3J2MD3": {
+   "hours": 480,
+   "volumeUsd30d": 1498462.6040567204,
+   "liquidityUsdLast": 36381.453913865786
+  },
+  "CCU7TJ5XXFZOWRWXWEX3F4UIDY27UKITATVWRUIQOKJOIBXQB7IHWWQN": {
+   "hours": 10,
+   "volumeUsd30d": 3008.756616613372,
+   "liquidityUsdLast": 49338.595904857764
+  },
+  "CATBRG3ADIAEYW6W7K4OHINZAS4WFJ4QG737HR5F3DY5VMNVUWTQMWYY": {
+   "hours": 19,
+   "volumeUsd30d": 7220.682805955616,
+   "liquidityUsdLast": 48510.16881310712
+  },
+  "CAKJKVAJJQEVFPBTWG5IQ4WJHL5AE27RYYIVFBYJXW5HVE4A7UDJZ6UH": {
+   "hours": 369,
+   "volumeUsd30d": 22595.23940760215,
+   "liquidityUsdLast": 30563.169471969057
+  },
+  "CA26X2GYYE2H3ZXNXFPU537O2HITDXNMF5HXUJVL3O7XEVQUUB4RQ54T": {
+   "hours": 66,
+   "volumeUsd30d": 16764.527197507974,
+   "liquidityUsdLast": 50177.50347304166
+  },
+  "CD2CU3DRKJAFLB2ZQFFBQ4WL4Q5XZ36CMTP3PXFLHBNFWFXR3JAGNKLH": {
+   "hours": 10,
+   "volumeUsd30d": 5.57118407285714,
+   "liquidityUsdLast": 5.893034799999999e-7
+  },
+  "CAVB532FDYEWBXNSCSKACTZI3BV3QBNFLH2UQRR5HIKFKLFVQW5YGZVY": {
+   "hours": 509,
+   "volumeUsd30d": 817.4181523337489,
+   "liquidityUsdLast": 2169.5464879043066
+  },
+  "CAPQ3TMDYZBV4Y7J3HULP4VOHSQKGDDBC4QF5EZGPK3O5Y4ARXWBHISB": {
+   "hours": 492,
+   "volumeUsd30d": 129708.03121300675,
+   "liquidityUsdLast": 2858.47050139632
+  },
+  "CALCNPWBGQOPFTY3BSAZKAGI3MXEHZZ7VOMSMTX3ISYWBTFNGGFQVK5O": {
+   "hours": 56,
+   "volumeUsd30d": 32.176203072653436,
+   "liquidityUsdLast": 534.5717295012419
+  },
+  "CDQ223FWK2XEEYXNNJQS4JCQ5DUCPXKJNNDNRJ3RON5LXH43UO7ECWUY": {
+   "hours": 17,
+   "volumeUsd30d": 8.942500878005589,
+   "liquidityUsdLast": 28348.98705124309
+  },
+  "CB3ZWHICKIYJOSQ7W2GFN2U2CVSGTFBQ6GCDVGQ354BQYJCKX6L22CNH": {
+   "hours": 656,
+   "volumeUsd30d": 214895.15750358187,
+   "liquidityUsdLast": 6585.289912564092
+  },
+  "CD74JDJIRBMCKPI5LV5C4A7L4NIPCLJ3VOVYILFFXF3TSTALPOLY7CHC": {
+   "hours": 707,
+   "volumeUsd30d": 4029453.0235066563,
+   "liquidityUsdLast": 66675.48905137635
+  },
+  "CCJHUCHZ2DC6MP7LMGQJYSENNTGIFWU4J4TCGFYYDLAC5LTD4YMF6HSQ": {
+   "hours": 115,
+   "volumeUsd30d": 285687.2968683703,
+   "liquidityUsdLast": 76075.16254884237
+  },
+  "CDL5H2BZTIPBPIKJ2NOILZQYZRZE553H3SZX47DDBYEBXSWXIHZLGA2C": {
+   "hours": 398,
+   "volumeUsd30d": 139206.7166283105,
+   "liquidityUsdLast": 23063.960168604564
+  },
+  "CA4HVQTVHQWDIZSQQQBXYHCA4C5D6V2ZGRHJQIKHVDMBEXCMFH4NYURR": {
+   "hours": 169,
+   "volumeUsd30d": 30829.40330839897,
+   "liquidityUsdLast": 8963.471552547322
+  },
+  "CDRRS2SLIP7THFGUZVB4QL2RAM2ZHSDMAD2GL5GEXTKK5AY3DQUX3Y7N": {
+   "hours": 644,
+   "volumeUsd30d": 263390.4279892672,
+   "liquidityUsdLast": 12740.618281914101
+  },
+  "CC642QYWXXR2HUZDNJ6KYN5LV5JFPFPT4Q6YNKLZLYEFWZZZ5SJYLA5G": {
+   "hours": 700,
+   "volumeUsd30d": 1936415.044795488,
+   "liquidityUsdLast": 102206.76759719412
+  },
+  "CDINXPGR3BJCPBC7IQQIL5AEHAVDZZSIGNCWJ7ORPVBRCL6L5RJ3FDQM": {
+   "hours": 229,
+   "volumeUsd30d": 33.696332389590054,
+   "liquidityUsdLast": 34.76974497889608
+  },
+  "CDQ4OYM3RPLEWNZFVAJQGEYLSDMPHEZYMHVOQBKI767UWV5XV5ISAJE2": {
+   "hours": 256,
+   "volumeUsd30d": 331.0671648065087,
+   "liquidityUsdLast": 1.07882245508887
+  },
+  "CCKQASCNLYGCUYRKDFYHW5SRVUQNRPRX27YAK62CBNLEVSKIXE3CO4LI": {
+   "hours": 363,
+   "volumeUsd30d": 5332.613901784163,
+   "liquidityUsdLast": 1944.891523524289
+  },
+  "CDBIGH3UEIVPVU7I2PGJV3IFIAN6OIPZ3QW7EDOO6LAHYBWW4MVS75Z2": {
+   "hours": 81,
+   "volumeUsd30d": 603.3340842897626,
+   "liquidityUsdLast": 122.67561444403465
+  },
+  "CAWR3CM74VNXM5MRIPILDSTW5S4ZNB47DYBEVE6565UC573L7OFZF7FH": {
+   "hours": 220,
+   "volumeUsd30d": 14646.782016712195,
+   "liquidityUsdLast": 2977.8784604248103
+  },
+  "CDM3E67MHCLMFXRDJWOIZRRYPKENH7CMARTOQBEZQQZVLQV52RVPMINA": {
+   "hours": 391,
+   "volumeUsd30d": 94474.11665986627,
+   "liquidityUsdLast": 16147.306935967468
+  },
+  "CCC466Y3A5332PRE7NQOKOLJXDHF5CNS2M5MT7I7YIPNKLUO4YETIE3B": {
+   "hours": 434,
+   "volumeUsd30d": 461829.20674957294,
+   "liquidityUsdLast": 34039.22013660706
+  },
+  "CDE53ZA37BXC3RA4J4CX2ZRCJ3B4DKXK7VCVK3OMDBBIIBZASTVQQM5L": {
+   "hours": 0,
+   "volumeUsd30d": 0,
+   "liquidityUsdLast": 0
+  },
+  "CCVWACSSUYADCHYEYUCKUQL4YISMLLFFXY56UHCVIYR6D6P77RCRGQY7": {
+   "hours": 30,
+   "volumeUsd30d": 123.0931558075649,
+   "liquidityUsdLast": 167.63483834429172
+  },
+  "CB665SVTHHKPYX4LUSTYUG5T22WMDETNWWKXRDES3I74NADZG6SIBP5F": {
+   "hours": 213,
+   "volumeUsd30d": 5830.8761506066485,
+   "liquidityUsdLast": 2521.883189535628
+  },
+  "CAT65JSA4B3AK7SIUWB5ZONZALAS2HGMFG7EF5GP7BIOKJP6Y4O6J5BF": {
+   "hours": 321,
+   "volumeUsd30d": 48756.03397858125,
+   "liquidityUsdLast": 8093.084316307968
+  },
+  "CCPN4NNSQKL3LLPTSPTFKYKXR3FBL37AULE6PTZH3QD24MPHXQCN5O3U": {
+   "hours": 611,
+   "volumeUsd30d": 364256.27394591045,
+   "liquidityUsdLast": 78209.8830630205
+  },
+  "CC7IGNJ4CDAKZPOZJCTTWGAVKTQXKYQGUSVJ5CDUPES3QULCQW6UNAH5": {
+   "hours": 456,
+   "volumeUsd30d": 373526.63584537455,
+   "liquidityUsdLast": 59939.44508858169
+  },
+  "CAPIOQNULTKVYOJT6X2W2XKGNIVUWZDY72Y42YG6HQKJ7DU7YTHIDQYX": {
+   "hours": 201,
+   "volumeUsd30d": 15584.795291102017,
+   "liquidityUsdLast": 276434.3251435036
+  },
+  "CBV6LZABOAJRXHLIEKILTWBPC2AXLYVR4CGGPKZQ3PWJ5QFTPIWSWGWQ": {
+   "hours": 694,
+   "volumeUsd30d": 2813395.3156215954,
+   "liquidityUsdLast": 175774.82965486383
+  },
+  "CCZXH6N6DSJLAMXCYODGD255GTFILMNU4R5AHPE7PED4A4EZEOPYAWL5": {
+   "hours": 359,
+   "volumeUsd30d": 88175.07591647322,
+   "liquidityUsdLast": 62480.04607984807
+  },
+  "CBWWCFZUIYARXP2VFQKB6TGD63IV6PC5GO4AO6PNP3HGZWHT23FTHMGC": {
+   "hours": 314,
+   "volumeUsd30d": 41915.0122757934,
+   "liquidityUsdLast": 8818.376609988753
+  },
+  "CAAJYIESEIKI7KZV67MBSXPCRGKH5WY354WUS55H4UNBD35OSKYPZA7Q": {
+   "hours": 666,
+   "volumeUsd30d": 244796.109066046,
+   "liquidityUsdLast": 20556.871970593606
+  },
+  "CADMDTCQHSC2GCYPDCYQ7FBYVOXED3E3WGCYJHHT524ZBALM7VYHFS7F": {
+   "hours": 329,
+   "volumeUsd30d": 49063.10284360266,
+   "liquidityUsdLast": 333350.40313425096
+  },
+  "CDPL6QRE7T5XXICU2KJEUL366KEZT6ICOVBLSL46MHMC5RSDIBR2PCTO": {
+   "hours": 0,
+   "volumeUsd30d": 0,
+   "liquidityUsdLast": 0
+  },
+  "CBRUQ7I6C6OGHMDYWD6XQUZFB6KJ3LLPNE34EPKSPFZ2YMBJ2GIWYYZ7": {
+   "hours": 563,
+   "volumeUsd30d": 397323.22525808704,
+   "liquidityUsdLast": 67835.18986608791
+  },
+  "CDTSE6RLRI7ZO25JSER6E4SQR4PHJJNONEGS5HDJ3Y6LAKECRZKYN5CA": {
+   "hours": 219,
+   "volumeUsd30d": 97254.3740886633,
+   "liquidityUsdLast": 111479.5637022885
+  },
+  "CBBMQBNHB2FYVZYV7VNHOJHUMTFJLR4PUMRVQYNW6RHIKZO2NQMIBUCV": {
+   "hours": 720,
+   "volumeUsd30d": 18839492.3768018,
+   "liquidityUsdLast": 1267006.9348437653
+  },
+  "CA4HTZNY2RBZWEQE5GBMNREZMFRPAZSVJ6OGPC7T3VM7NHRJYFAVID2S": {
+   "hours": 689,
+   "volumeUsd30d": 2502224.3121735263,
+   "liquidityUsdLast": 217547.47169057454
+  },
+  "CCV2X5THRWCT7HCGJU42DMOVYLAARVIPEDG2LQOVVA2WGONF2MZY2OX6": {
+   "hours": 177,
+   "volumeUsd30d": 20348.517336717767,
+   "liquidityUsdLast": 9551.844906390686
+  }
+ }
+}

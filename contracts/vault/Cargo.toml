@@ -1,0 +1,20 @@
+[package]
+name = "sik-cl-lp-manager-vault"
+description = "Testnet-only stable-pair concentrated-liquidity vault with an oracle-bounded rebalance. UNAUDITED. DEMO-ONLY, not for value (gate G-VALUE)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[lib]
+crate-type = ["lib", "cdylib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
+sik-cl-lp-manager-demo-pool = { path = "../demo-pool" }
+sik-cl-lp-manager-demo-oracle = { path = "../demo-oracle" }

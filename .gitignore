@@ -1,0 +1,10 @@
+node_modules/
+.cache/
+out/
+*.log
+.env
+.env.*
+*.key
+*.secret
+contracts/target/
+contracts/**/test_snapshots/

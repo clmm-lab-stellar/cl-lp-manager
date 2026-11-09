@@ -1,0 +1,30 @@
+{
+  "name": "@sik/cl-lp-manager",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Concentrated-liquidity LP backtester over real Sushi Stellar V3 and Aquarius concentrated pool history, plus a testnet-only stable-pair rebalancing vault. Unaudited; no mainnet value (gate G-VALUE).",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "packageManager": "pnpm@10.22.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts",
+    "lint": "node scripts/lint.ts",
+    "check": "pnpm typecheck && pnpm test && pnpm lint",
+    "cli": "node src/cli.ts",
+    "testnet:vault": "node scripts/testnet-vault.ts",
+    "contracts:build": "cd contracts && CARGO_BUILD_JOBS=2 nice -n 10 stellar contract build",
+    "demo:data": "cd web && node scripts/build-data.ts",
+    "web:build": "cd web && pnpm build"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^17.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^7.0.2"
+  }
+}

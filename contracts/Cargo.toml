@@ -1,0 +1,25 @@
+[workspace]
+resolver = "2"
+members = ["vault", "demo-pool", "demo-oracle"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+license = "Apache-2.0"
+publish = false
+rust-version = "1.91"
+
+[workspace.dependencies]
+# Same pin as token-invariants / holders-at-ledger: the Stellar CLI 25.2.0 `stellar contract init`
+# template writes soroban-sdk = "25" (resolves to 25.3.2). See README "Toolchain".
+soroban-sdk = "25"
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true
+debug = 0
+strip = "symbols"
+debug-assertions = false
+panic = "abort"
+codegen-units = 1
+lto = true

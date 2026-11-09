@@ -1,0 +1,28 @@
+/* SPDX-License-Identifier: Apache-2.0 */
+@import 'tailwindcss';
+@import './styles/kit/tailwind-theme.css';
+@import '@fontsource-variable/geist';
+@import '@fontsource-variable/geist-mono';
+
+@source './ui/kit';
+
+body {
+  background: var(--sik-canvas);
+}
+
+/* Native form controls in the kit's look (labels sit above, DESIGN.md 8.1). */
+.field {
+  height: 2rem;
+  border-radius: var(--sik-radius-sm);
+  border: 1px solid var(--sik-line-strong);
+  background: var(--sik-surface);
+  color: var(--sik-ink);
+  padding: 0 0.625rem;
+  font-size: var(--sik-text-sm);
+  font-variant-numeric: tabular-nums;
+  min-width: 0;
+}
+.field:focus-visible {
+  outline: 2px solid var(--sik-focus);
+  outline-offset: 1px;
+}
